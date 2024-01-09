@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+    <table border="1"> 
+        <tr>
+            <td colspan="2"> <center>กรอกข้อมูล</center></td>
+        </tr>
+        <tr>
+            <td><label for="">ชื่อ-นามสกุล</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label for="">รหัส</label></td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td><label for="">อายุ</label></td>
+            <td> <input type="number" min="1" max="100"></td>
+        </tr>
+        <tr>
+            <td> <label for="">phone number = 123-456-7890</label></td>
+            <td> <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="091-222-2421"></td>
+        </tr>
+        <tr>
+            <td><label for="">กิจกรรมที่ชอบ</label></td>
+            <td><input type="checkbox" value="กิน">กิน
+                <input type="checkbox" value="นอน">นอน
+                <input type="checkbox" value="เล่นเกม">เล่นเกม</td>
+        </tr>
+        <tr>
+            <td><label for="">โตขึ้นอยากทำอาชีพอะไร</label></td>
+            <td> <input type="radio" name="work" value="ช่างตัดผม">ช่างตัดผม
+                <input type="radio" name="work" value="ช่างซ้อมรถ">ช่างซ้อมรถ
+                <input type="radio" name="work" value="เจ้าของร้านค้าปลีก">เจ้าของร้านค้าปลีก
+                <input type="radio" name="work" value="เจ้าของร้านอาหาร">เจ้าของร้านอาหาร</td>
+        </tr>
+        <td>
+        <input type="submit" value="บันทึกข้อมูล">
+        <input type="reset">
+        </td>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>
